@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+/*
+Pastail brow: #EF9C66
+pastil Yellow: #FCDC94
+Pastail Green: #C8CFA0
+Pastail Blue: #78ABA8
+*/
+
+
+*{
+    box-sizing: border-box;
+    
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--tertiary-color);
+}
+
+
+.container {
+    max-width: 100vmax;
+    max-height: 80vmax;
+    background-color: var(--quaternary-color);
+    margin: 39px 182px;
+    height: 90vh;
+    overflow: hidden;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* All cloros and importent root sections here */
+
+
+:root {
+    --primary-color: #EF9C66;
+    --secondary-color: #FCDC94;
+    --tertiary-color: #C8CFA0;
+    --quaternary-color: #78ABA8;
+    --fontcolor: #000;
+}
+
+
+/* top POS head menu */
+
+.headmenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+    background-color: var(--primary-color);
+    border-radius: 25px 25px 0 0;
+   
+}
+
+
+/* search bar  CSS */
+
+.searchbar{
+    display: flex;
+    padding-right: 502px;
+    padding-bottom: 10px;
+}
+
+.searchbar input {
+    width: 500px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--fontcolor);
+    background-color: var(--tertiary-color);
+
+    position: relative;
+}
+.searchbar button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--fontcolor);
+    background-color: var(--secondary-color);
+    cursor: pointer;
+
+    position: absolute;
+    right: 1028px;
+}
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+/*order time and add table css */
+
+.ordertime{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.time__addtable{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.ordertime{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.ordertime p {
+    font-size:20px;
+    font-weight: 300;
+    color: var(--fontcolor);
+}
+.ordertime input {
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--fontcolor);
+    background-color: var(--tertiary-color);
+}
+
+
+.addtable{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.addtable button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--fontcolor);
+    background-color: var(--secondary-color);
+    cursor: pointer;
+}
+
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+.menu {
+
+    max-width: 150px;
+    
+
+    display: flex;
+    flex-direction: column;
+    
+    column-gap: 40px;
+    padding: 10px 15px;
+    height: 87%;
+    overflow-y: auto;
+    background-color: var(--primary-color);
+}
+
+
+.menu__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 10px;
+    margin: 20px 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.menu__item i{
+    font-size: 30px;
+    color: var(--fontcolor);
+
+}
+
+.menu__item a {
+
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--fontcolor);
+    margin-top: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.menu__item a:hover {
+    color: var(--secondary-color);
+    transition: ease-in-out 0.3s;
+}
+
+.menu__item p{
+display: flex;
+flex-direction: column;
+font-size: 20px; 
+font-weight: 500;
+color: var(--fontcolor);
+margin-left: 10px;   
+
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
